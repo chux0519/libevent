@@ -159,11 +159,9 @@
 
 /* Define if the system has mbedtls */
 /* #undef EVENT__HAVE_MBEDTLS */
-#define EVENT__HAVE_MBEDTLS 1
 
 /* Define to 1 if you have the <mbedtls/ssl.h> header file. */
 /* #undef EVENT__HAVE_MBEDTLS_SSL_H */
-#define EVENT__HAVE_MBEDTLS_SSL_H 1
 
 /* Define to 1 if you have the <minix/config.h> header file. */
 /* #undef EVENT__HAVE_MINIX_CONFIG_H */
@@ -188,11 +186,11 @@
 
 /* Define if the system has openssl */
 /* #undef EVENT__HAVE_OPENSSL */
-// #define EVENT__HAVE_OPENSSL 1
+#define EVENT__HAVE_OPENSSL 1
 
 /* Define to 1 if you have the <openssl/ssl.h> header file. */
 /* #undef EVENT__HAVE_OPENSSL_SSL_H */
-// #define EVENT__HAVE_OPENSSL_SSL_H 1
+#define EVENT__HAVE_OPENSSL_SSL_H 1
 
 /* Define to 1 if you have the `pipe' function. */
 #define EVENT__HAVE_PIPE 1
